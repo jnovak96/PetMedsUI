@@ -4,7 +4,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container mt-5">
-        <div class="card">
+        <div class="card bg-light p-3">
+            <h3>Orders</h3>
             <table class="table">
                 <thead>
                     <tr>
