@@ -12,12 +12,14 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1>Pet Meds System</h1>
-            <div style="display: flex; flex-direction: row; justify-content: space-around; width: 25%">
-                <a href="Orders.aspx">My Orders</a>
-                <a href="PlaceOrder.aspx">Place Order</a>
-                <a href="Inbox.aspx">My Inbox</a>
-            </div>
+            <nav class="navbar navbar-dark">
+                <h1>Pet Meds System</h1>
+                <div style="display: flex; flex-direction: row; justify-content: space-around; width: 25%">
+                    <a class="nav-link" href="Orders.aspx">My Orders</a>
+                    <a href="PlaceOrder.aspx">Place Order</a>
+                    <a href="Inbox.aspx">My Inbox</a>
+                </div>
+            </nav>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 <h1>Main Page</h1>
             </asp:ContentPlaceHolder>
